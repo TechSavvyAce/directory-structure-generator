@@ -12,5 +12,5 @@ The Directory Structure Generator is a script that creates a nested folder struc
 To get started, clone this repository to your local machine:  
 
 ```bash  
-git clone https://github.com/yourusername/directory-structure-generator.git  
+git clone https://github.com/TechSavvyAce/directory-structure-generator.git  
 cd directory-structure-generator 
