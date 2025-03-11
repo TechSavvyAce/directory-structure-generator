@@ -32,4 +32,4 @@ To install and run the Directory Structure Generator, follow these steps:
 To execute the script, run the following command in your terminal:  
 
 ```bash  
-bash create_directories.sh  
+bash scratch.sh
