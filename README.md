@@ -1,16 +1,35 @@
 # Directory Structure Generator  
 
 ## Description  
-The Directory Structure Generator is a script that creates a nested folder structure for the years 2018 and 2019. Each year contains directories for each month, and each month contains directories for days. The script also generates random Git commits within these daily directories, with timestamps formatted in ISO 8601. This can be useful for testing or demonstration purposes.  
+The **Directory Structure Generator** is a shell script that automates the creation of a nested directory structure for the years 2018 and 2019. Each year contains directories for each month (01 to 12), and each month contains directories for days (01 to 30). Additionally, the script generates random Git commits within daily directories, simulating realistic version control scenarios.  
+
+This project can be helpful for testing, demonstrating Git features, or organizing files by date.  
 
 ## Features  
-- Creates a directory structure for 2018 and 2019.  
-- Generates directories for each month and day.  
-- Randomly commits files with unique timestamps to simulate a realistic Git history.  
+- Creates a structured directory hierarchy for the years 2018 and 2019.  
+- Monthly and daily directories contain random Git commits.  
+- Each commit includes a timestamp formatted in ISO 8601.  
+- Demonstrates basic Git usage in a scripted environment.  
 
 ## Installation  
-To get started, clone this repository to your local machine:  
+To install and run the Directory Structure Generator, follow these steps:  
+
+1. Clone the repository to your local machine:  
+
+    ```bash  
+    git clone https://github.com/TechSavvyAce/directory-structure-generator.git  
+    ```  
+
+2. Navigate to the cloned directory:  
+
+    ```bash  
+    cd directory-structure-generator  
+    ```  
+
+3. Ensure you have Git installed on your system.  
+
+## Usage  
+To execute the script, run the following command in your terminal:  
 
 ```bash  
-git clone https://github.com/TechSavvyAce/directory-structure-generator.git  
-cd directory-structure-generator 
+bash create_directories.sh  
